@@ -166,3 +166,64 @@ a {
 
 /* HERO SECTION END */
 
+/* ABOUT ME SECTION START */
+.about {
+  background-color: #f8f8f8;
+  padding: 100px 60px;
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-left img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+.about-right {
+  flex: 1;
+  max-width: 600px;
+  margin-left: 60px;
+}
+.about-right h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1f1f1f;
+}
+.about-right p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* RESPONSIVE ABOUT SECTION */
+
+@media (max-width: 992px) {
+  .about .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-right {
+    margin: 40px 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-left img {
+    width: 280px;
+  }
+
+  .about-right h2 {
+    font-size: 28px;
+  }
+
+  .about-right p {
+    font-size: 15px;
+  }
+}
+/* ABOUT SECTION END  */
