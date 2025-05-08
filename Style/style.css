@@ -167,7 +167,7 @@ a {
 /* HERO SECTION END */
 
 /* ABOUT ME SECTION START */
-.about {
+/* .about {
   background-color: #f8f8f8;
   padding: 100px 60px;
 }
@@ -226,6 +226,7 @@ a {
     font-size: 15px;
   }
 }
+*/
 /* ABOUT SECTION END  */
 
 /* SKILLS SECTIONS START */
@@ -270,9 +271,9 @@ a {
 }
 
 .skill-card img {
-  height: 60px;
+  height: 40px;
   margin-bottom: 12px;
-  border-radius: 30px;
+  /* border-radius: 50px; */
 }
 
 .skill-card h3 {
