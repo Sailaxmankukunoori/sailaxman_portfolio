@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -336,23 +335,24 @@ a {
   font-weight: 500;
 }
 
-/* RESPONSIVE FIX FOR SMALL DEVICES */
-@media (max-width: 480px) {
+/* RESPONSIVE */
+@media (max-width: 768px) {
   .skills {
-    padding: 60px 10px;
+    padding: 60px 20px;
   }
 
   .section-title {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .skills-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 per row on mobile */
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
   }
 
   .skill-card {
-    width: 100%;
+    width: 80px;
+    padding: 16px 8px;
   }
 
   .skill-card img {
